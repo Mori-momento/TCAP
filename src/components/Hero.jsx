@@ -1,5 +1,4 @@
 
-import heroImage from '../images/logo.png';
 
 const Hero = () => {
   return (
