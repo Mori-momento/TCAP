@@ -1,8 +1,9 @@
 
+import heroImage from '../images/logo.png';
 
 const Hero = () => {
   return (
-    <div className="w-full flex bg-black flex-col md:flex-row items-center justify-center md:justify-between p-24">
+    <div className="w-full h-screen flex bg-black flex-col md:flex-row items-center justify-center md:justify-between p-24">
       <div className=" px-4">
         <img src={heroImage} alt="Hero" className=" h-[500px]" />
       </div>
